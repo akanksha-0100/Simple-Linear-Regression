@@ -1,17 +1,13 @@
 
 # Simple Linear Regression on Real Estate Prices
-
 This project demonstrates how to apply a **simple linear regression** model to predict real estate prices based on property size. It is a part of an exercise that helps in understanding the basics of linear regression.
 
 ## Dataset
-
 The dataset used is `real_estate_price_size.csv`, which contains two key variables:
-
 - **Price** (Dependent variable): The price of a property.
 - **Size** (Independent variable): The size of the property (in square meters).
 
 ## Project Overview
-
 The project follows these steps:
 
 1. **Importing Libraries**: Essential Python libraries such as `numpy`, `pandas`, `matplotlib`, and `statsmodels` are used for data handling, visualization, and model building.
@@ -23,21 +19,6 @@ The project follows these steps:
 4. **Building the Regression Model**: A simple linear regression model is created using the size of the property as the predictor and the price as the target variable.
 
 5. **Evaluating the Model**: The model's performance is evaluated using standard metrics such as R-squared, coefficients, and plotting the regression line.
-
-## Requirements
-
-To run the notebook, you need the following Python packages:
-
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `statsmodels`
-
-You can install these packages using `pip`:
-
-```bash
-pip install numpy pandas matplotlib statsmodels
-```
 
 ## Running the Project
 
